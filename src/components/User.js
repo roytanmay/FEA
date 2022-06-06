@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import './User.css';
+import "./User.css";
 
 const User = () => {
   const [loading, setLoading] = useState(true);
@@ -23,6 +23,7 @@ const User = () => {
 
   return (
     <div>
+      <h1 className="user-heading">User Profile</h1>
       {loading && <div>Loading...</div>}
 
       {!loading && error && <div>{error}</div>}

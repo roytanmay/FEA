@@ -1,8 +1,5 @@
-.jobs-div h1 {
-  font-size: 1.75rem;
-}
-
 .job-opening-heading {
+  font-size: 1.75rem;
   margin-left: 1.5rem;
 }
 
@@ -25,7 +22,7 @@
     padding: 1rem;
   }
 
-  .jobs-div h1 {
-    margin-left: 1rem;
+  .jobs-opening-heading {
+    margin-left: 2rem;
   }
 }
