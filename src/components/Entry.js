@@ -22,7 +22,11 @@ const Entry = (props) => {
         <div className="skill">{props.skills.map(createSkill)}</div>
       </div>
       <div>
-        <h3>Minimum experience required: {props.experience}</h3>
+        {props.experience === 0 ? (
+          <h3>Fresher Opening</h3>
+        ) : (
+          <h3>Minimum experience required: {props.experience}</h3>
+        )}
       </div>
     </div>
   );
