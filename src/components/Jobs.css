@@ -1,27 +1,31 @@
 .jobs-div h1 {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
+}
+
+.job-opening-heading {
+  margin-left: 1.5rem;
 }
 
 .jobs {
-    display: flex;
-    flex-direction: column;
-    width: 45rem;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 45rem;
+  gap: 1rem;
 }
 
 @media only screen and (max-width: 1230px) {
-    .jobs {
-        width: 40rem;
-    }
+  .jobs {
+    width: 40rem;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    .jobs {
-        width: 30rem;
-        padding: 1rem;
-    }
+  .jobs {
+    width: 30rem;
+    padding: 1rem;
+  }
 
-    .jobs-div h1 {
-        margin-left: 1rem;
-    }
+  .jobs-div h1 {
+    margin-left: 1rem;
+  }
 }

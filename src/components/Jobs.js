@@ -37,7 +37,7 @@ const JobsDiv = () => {
 
   return (
     <div className="jobs-div">
-      <h1>Job Openings</h1>
+      <h1 className="job-opening-heading">Job Openings</h1>
       {loading && <div>Loading...</div>}
 
       {!loading && error && <div>{error}</div>}
